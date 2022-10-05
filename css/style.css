@@ -1,0 +1,205 @@
+body {
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+h2 {
+  color: black;
+  position: absolute;
+  top: 18%;
+  left: 12%;
+  width: 550px;
+}
+button.btn.btn-success {
+  background-color: #0095d9;
+}
+
+div#row {
+  width: 76%;
+  border: 1px solid #9f9fa08e;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.mb-100{
+  margin-bottom: 100px;
+}
+
+div#col-right {
+  text-align: right;
+}
+.content-section {
+  width: 100%;
+  height: 88vh;
+  background-color: white;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: 100%;
+}
+@media screen and (max-width: 1680px) {
+  .checkEl {
+    margin-top: 20px;
+  }
+
+  .ccoapp-note {
+    font-size: 24px;
+    padding: 15px 0 25px;
+  }
+}
+
+.progress {
+  height: 1.5rem;
+}
+.progress-bar {
+  background-color: #43c2ef;
+}
+.ccoapp-note {
+  font: 26px 'Futura-Bold';
+  color: #43c2ef;
+  letter-spacing: -1px;
+  margin: 0;
+  padding: 15px 0 38px;
+}
+.ccoapp-tabnav {
+  width: 100%;
+  float: left;
+  margin: 0;
+  position: relative;
+  margin-bottom: -1px;
+}
+.ccoapp-tabnav li.active {
+  background: #43c2ef;
+  position: relative;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #43c2ef;
+}
+.ccoapp-tabnav li.active .icon-luser {
+  background-position: -367px -323px;
+}
+.icon-luser {
+  background: url(img/sprite.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  height: 32px;
+  background-position: -367px -272px;
+}
+.ccoapp-tabnav li {
+  float: left;
+  padding: 12px;
+  border: 1px solid #43c2ef;
+  border-right: none;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  width: 158px;
+  text-align: center;
+}
+.ccoapp-tabnav li.active strong {
+  color: #fff;
+}
+.ccoapp-tabnav li strong {
+  color: #43c2ef;
+  display: block;
+  margin-top: 5px;
+}
+.ccoapp-tabnav li.active:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: -10px;
+  left: 0;
+  background: #43c2ef;
+  -webkit-animation-name: movetop;
+  -webkit-animation-duration: 0.6s;
+  -moz-animation-name: movetop;
+  -o-animation-name: movetop;
+  animation-name: movetop;
+  -moz-animation-duration: 0.6s;
+  -o-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  border: 1px solid #43c2ef;
+  border-bottom: 1px solid transparent;
+}
+.ccoapp-tabcntholder {
+  border: 1px solid #43c2ef;
+  float: left;
+  width: 100%;
+  min-height: 100px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  padding: 15px 14px 12px 14px;
+}
+.ccoapp-tabcnt.active {
+  display: block;
+}
+.input-holder {
+  position: relative;
+  padding-bottom: 15px;
+}
+.input-holder label {
+  color: #000;
+  display: inline-block;
+  padding-left: 8px;
+}
+.input-holder .input-wrapper {
+  position: relative;
+}
+.form-control:focus,
+.form-control:focus-visible,
+.form-control:focus-within {
+  border-color: #43c2ef;
+  outline: none;
+  box-shadow: none;
+}
+
+.common-button:hover,
+.common-button-white:hover {
+  color: #43c2ef;
+  background: #fff;
+  border: 1px solid #43c2ef;
+  -webkit-box-shadow: inset 200px 0 0 0 #fff;
+  -moz-box-shadow: inset 200px 0 0 0 #fff;
+  box-shadow: inset 200px 0 0 0 #fff;
+}
+#oops,
+#status {
+  display: none;
+}
+
+@media screen and (max-width: 475px) {
+  h2 {
+    width: 210px;
+    top: 3%;
+    left: 20px;
+    position: absolute;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+}
